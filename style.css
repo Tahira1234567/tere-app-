@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+.logo {
+  color: #75BF7A;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.help-btn {
+  background: #75BF7A;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+
+.hero {
+  display: flex;
+  padding: 60px 80px;
+  align-items: center;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #000;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.download-btn img {
+  width: 22px;
+  height: 22px;
+}
+
+
+.hero-image {
+  width: 50%;
+  text-align: center;
+  
+}
+
+.hero-image > img {
+  width: 80%;
+}
+
+
+
+.search-bar {
+  background: #75BF7A;
+ padding: 30px;
+  text-align: center;
+}
+
+.search-bar p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.tere-works {
+  padding: 90px 60px;
+  text-align: center;
+}
+
+.tere-works h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.tere-works h2 span {
+  color:#75BF7A;
+}
+
+.sub-text {
+  color: #666;
+  margin-top: 10px;
+}
+
+.works-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 60px;
+}
+
+.works-col {
+  width: 280px;
+}
+
+.work-item {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.work-item h4 {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.work-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+.num {
+  width: 36px;
+  height: 36px;
+  background: #75BF7A;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.center-circle {
+  width: 390px;
+  height: 390px;
+  border-radius: 999px;
+  background: #75BF7A;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+
+
+.center-circle >img{
+   
+   height: 40vh;
+  display: flex;
+
+  
+  
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.work-box {
+  background: #f7f7f7;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.work-box h3 {
+  color: #75BF7A;
+  margin-bottom: 10px;
+}
+
+.green-circle {
+  width: 220px;
+  height: 220px;
+  background: #75BF7A;
+  border-radius: 50%;
+  margin: 40px auto 0;
+}
+
+
+.benefits {
+  padding: 10px 0;
+}
+
+.benefit-card {
+  width:85%;
+  margin: 29px auto;
+  padding: 20px;
+  background: #f6f6f6;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.benefit-text {
+  max-width: 260px;
+}
+
+
+
+
+.benefit-text h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.benefit-text p {
+  color: #666;
+  line-height: 1.6;
+}
+.benefit-card img {
+  width: 144px;
+
+}
+
+
+
+.footer {
+  height: 250px;
+  background-color: white;
+  display: flex;
+}
+
+.footer {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 80px;
+}
+
+.footer-info h4 {
+  margin-bottom: 15px;
+  color: #000;
+ 
+}
+
+.footer-info a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+  
+}
+
+.footer-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-btn .my-button {
+  background-color: #555;
+  color: #ccc;
+}
+
+
+
+
+  
+
+
+
+
+
