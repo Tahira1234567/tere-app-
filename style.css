@@ -223,44 +223,53 @@ nav a {
   margin: 40px auto 0;
 }
 
-
-.benefits {
-  padding: 10px 0;
+.all-benefits {
+  padding: 80px 0;
 }
 
-.benefit-card {
-  width:85%;
-  margin: 29px auto;
-  padding: 20px;
-  background: #f6f6f6;
-  border-radius: 10px;
 
+.benefit {
+  width: 75%;
+  margin: 40px auto;
+  padding: 20px;
+ background-color: #f9f9f9;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
 }
 
 
 .benefit-text {
-  max-width: 260px;
+  max-width: 250px;
 }
 
+.benefit-text span {
+  font-size: 48px;
+  font-weight: 700;
+  color: #75BF7A
+}
 
-
-
-.benefit-text h3 {
+.benefit-text h4 {
   font-size: 22px;
   margin: 10px 0;
 }
 
 .benefit-text p {
   color: #666;
-  line-height: 1.6;
+  line-height: 1.2;
 }
-.benefit-card img {
-  width: 144px;
 
+
+.benefit img {
+  width: 256px;
+}
+
+
+
+.benefit:nth-child(2) {
+  flex-direction: row-reverse;
 }
 
 
